@@ -1,0 +1,14 @@
+ja:
+  languageName: "日本語"
+  languageCode: "ja-JP"
+  weight: 1
+  title: "AI-Driven Engineering Design Notes"
+  contentDir: "content"
+
+en:
+  languageName: "English"
+  languageCode: "en-US"
+  weight: 2
+  title: "AI-Driven Engineering Design Notes"
+  contentDir: "content"
+

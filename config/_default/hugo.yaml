@@ -1,0 +1,21 @@
+# For local development. GitHub Pages builds override baseURL via the workflow.
+baseURL: "http://localhost:1313/"
+title: "AI-Driven Engineering Design Notes"
+theme: "PaperMod"
+
+defaultContentLanguage: "ja"
+defaultContentLanguageInSubdir: false
+
+enableRobotsTXT: true
+# Avoid build errors before the repository has its first commit.
+enableGitInfo: false
+
+pagination:
+  pagerSize: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
