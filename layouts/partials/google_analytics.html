@@ -1,4 +1,9 @@
-{{- /* Intentionally empty.
-      PaperMod expects this partial to exist in some versions.
-      Add analytics integration here if/when needed. */ -}}
-
+{{- with site.Config.Services.GoogleAnalytics.ID }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+{{- end }}
