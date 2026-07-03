@@ -6,6 +6,10 @@ theme: "PaperMod"
 defaultContentLanguage: "ja"
 defaultContentLanguageInSubdir: false
 
+services:
+  googleAnalytics:
+    id: "G-FW32KSZQ9T"
+
 enableRobotsTXT: true
 # Avoid build errors before the repository has its first commit.
 enableGitInfo: false
