@@ -17,9 +17,7 @@ Claude Code set up an OpenFOAM environment on my Mac mini and ran the simulation
 What I wanted to see was airfoil flow hysteresis and aeroacoustic noise, but Claude's knowledge of fluid dynamics turned out to be deeper than mine. With just a brief description, it built simulation cases that captured stall phenomena and visualized wake vortices using Q-criterion. The video and plots in this article were created by Claude on its own initiative.
 Claude even looked at the images it had generated and expressed excitement at seeing the vortex structures. I wonder if it understood how difficult the simulation it had been asked to run really was.
 
-<video controls width="100%">
-  <source src="naca0012_les_Q2000.mp4" type="video/mp4">
-</video>
+<iframe width="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/v_xkgbaPmtE" frameborder="0" allowfullscreen></iframe>
 
 What surprised me most was that when the numerical computation diverged, Claude inspected the mesh, identified the problem, and regenerated it. A human would typically suffer enough psychological damage from a CFD divergence to give up entirely. It was also impressive that Claude decided on its own to switch the mesher from non-orthogonal to orthogonal grids.
 
