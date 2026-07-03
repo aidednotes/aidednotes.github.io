@@ -30,8 +30,15 @@ I had only intended to play around with fluid simulations, but now I need to thi
 When CAE becomes work for LLMs, commercial CAE development strategies will change dramatically.
 Claude Code operates via CLI, so it excels with command-line meshers. The GUI-based automatic meshing in expensive commercial software — convenient for humans — is awkward for it. The mesher most convenient for Claude is probably Gridgen.
 
-There is a lot of momentum around AI for manufacturing as part of the Physical AI movement, but AI for development and design may have reached a tipping point before manufacturing did. A future where factories are emptied of people is still too distant a goal, but a future where people disappear from the development process now seems visible.
+There is a lot of momentum around AI for manufacturing as part of the Physical AI movement, but AI for development and design may have reached a tipping point before manufacturing did. 
+
+
+A future where factories are emptied of people is still too distant a goal, but a future where people disappear from the development process now seems visible.
+
+
 In manufacturing, the upstream processes of development and design have the greatest impact on product cost. The more advanced a company is, the stronger its simulation capabilities and the more it centers development in the virtual domain. (I have heard that Toyota validated the superiority of the Toyota Hybrid System through simulation during the original Prius development. Coming from a consumer electronics background, that level of capability is almost unbelievable.)
+
+
 At forward-thinking companies, organizational restructuring around LLMs is probably already underway. Meanwhile, manufacturers that lack modeling capabilities and rely on physical prototyping will lose price competitiveness due to high labor costs and long development cycles. In each industry, it may come down to just one or two advanced companies surviving — though rather than worrying about other companies, I should be worrying about my next appointment at the employment office.
 
 Three months from now, things will surely be even more extraordinary.
