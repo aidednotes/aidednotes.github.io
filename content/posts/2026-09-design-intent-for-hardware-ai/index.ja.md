@@ -7,6 +7,7 @@ tags: ["LLM", "製造AI", "設計工学", "設計意図", "CFD", "プロペラ�
 categories: ["Engineering Design"]
 cover:
   image: "fig-01-three-layer-design-knowledge.png"
+  relative: true
   alt: "プロペラファンの設計知識を三層で表した図"
   caption: ""
 ---
